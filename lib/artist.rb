@@ -10,7 +10,7 @@ class Artist
     @@all
   end
   def add_song(song)
-    puts "#{song}"
+    puts "#{song.name}"
     self.class.all << song
     self.songs << song
   end
