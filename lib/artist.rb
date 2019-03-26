@@ -14,7 +14,7 @@ class Artist
     self.class.all << song
     self.songs << song
     puts "#{self.class.all}"
-    puts "#{self.songs}"
+    puts "#{self.class}"
   end
   
   def self.song_count
